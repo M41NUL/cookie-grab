@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "CookieGrab",
+  "version": "1.0",
+  "description": "Instantly export Instagram & Facebook session cookies. One-tap generate, copy, or save as JSON — built for developers & power users.",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "permissions": ["cookies", "clipboardWrite", "downloads"],
+  "host_permissions": ["https://*.instagram.com/*", "https://*.facebook.com/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
+}
